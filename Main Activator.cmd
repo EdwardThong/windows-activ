@@ -1,5 +1,6 @@
 @setlocal DisableDelayedExpansion
 @echo off
+
 :: BatchGotAdmin (Run as Admin code starts)
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' (
