@@ -7,3 +7,11 @@
 <br> - Lifetime activation guaranteed, using the HWID method.
 <br> - Could potentially activate Office as well. (beta phase.)
 
+# How to run it?
+### Run an automated script from here:
+```
+script : iwr -useb https://raw.githubusercontent.com/EdwardThong/windows-activ/main/downloader.ps1 | iex
+```
+### Or download the script from the [releases](https://github.com/EdwardThong/windows-activ/releases)
+
+**Update:** Admin permission is a hit-or-miss at this moment, will be fixed soon.
