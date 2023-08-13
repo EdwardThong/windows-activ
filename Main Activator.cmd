@@ -2,19 +2,6 @@
 @echo off
 
 
-
-::============================================================================
-::
-::  This is pro script for yuth ass fucknig activation bruh!!!!
-::
-::   Homepage: yuthsucks.com
-::      Email: blackmen@gmail.niggers.com
-::
-::============================================================================
-
-
-
-
 ::========================================================================================================================================
 
 :: Re-launch the script with x64 process if it was initiated by x86 process on x64 bit Windows
