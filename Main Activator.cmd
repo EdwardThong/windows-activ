@@ -2,23 +2,6 @@
 @setlocal DisableDelayedExpansion
 @echo off
 
-
-
-::  For command line switches, check massgrave [dot] dev/command_line_switches.html
-::  If you want to better understand script, read from MAS separate files version. 
-
-
-::============================================================================
-::
-::   Homepage: massgrave [dot] dev
-::      Email: windowsaddict@protonmail.com
-::
-::============================================================================
-
-
-
-::========================================================================================================================================
-
 ::  Set Path variable, it helps if it is misconfigured in the system
 
 set "PATH=%SystemRoot%\System32;%SystemRoot%\System32\wbem;%SystemRoot%\System32\WindowsPowerShell\v1.0\"
@@ -214,11 +197,11 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 if defined old (
 echo ________________________________________________
 %eline%
-echo You are running outdated version MAS %masver%
+echo You are running outdated version WAS %masver%
 echo ________________________________________________
 echo:
 if not defined _MASunattended (
-echo [1] Get Latest MAS
+echo [1] Get Latest WAS
 echo [0] Continue Anyway
 echo:
 call :_color %_Green% "Enter a menu option in the Keyboard [1,0] :"
