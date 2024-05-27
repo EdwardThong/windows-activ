@@ -8,9 +8,9 @@
 <br> - Aesthetic changes in the UI.
 <br> - Could activate Office as well. (beta phase.)
 <h3> Next release will feature a Windows WMI. (basically a version of neofetch for checking the os and the system info) </h3>
-# How to run it?
-### Run an automated script from here:
-```powershell
+<br> # How to run it?
+<br> ### Run an automated script from here:
+``` powershell
 Invoke-WebRequest https://raw.githubusercontent.com/EdwardThong/windows-activ/main/downloader.ps1 | iex 
 ```
 ### Or download the script from the [releases](https://github.com/EdwardThong/windows-activ/releases)
