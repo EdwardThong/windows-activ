@@ -1,12 +1,13 @@
    # Windows Activator 
-<h3>An improved version of my Overpowered script that is available on my old repo!</h3>
+<h3>An improved version and an oem version that is used to activate computers 💻</h3>
 
 <h4>The Differences between the old one and this:</h4>
 - It's updated to run virtually, without downloading any scripts involve.
 <br> - It's free from any virus.
 <br> - Lifetime activation guaranteed, using the HWID method.
-<br> - Could potentially activate Office as well. (beta phase.)
-
+<br> - aesthetic changes in the uI
+<br> - Could activate Office as well. (beta phase.)
+<h3>next release will feature a windows wmi ( basically a version of neofetch for checking the os and the system info )</h3>
 # How to run it?
 ### Run an automated script from here:
 ```
@@ -14,4 +15,4 @@ Invoke-WebRequest https://raw.githubusercontent.com/EdwardThong/windows-activ/ma
 ```
 ### Or download the script from the [releases](https://github.com/EdwardThong/windows-activ/releases)
 
-**Update:** Admin permission is a hit-or-miss at this moment, will be fixed soon.
+**Update:** i wont be here looking for issues, since i have alot of things to do , but feel free to open an issue if there's one.
