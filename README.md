@@ -12,6 +12,7 @@
 ### Run an automated script from here:
 ```
 Invoke-WebRequest https://raw.githubusercontent.com/EdwardThong/windows-activ/main/downloader.ps1 | iex 
+
 ```
 ### Or download the script from the [releases](https://github.com/EdwardThong/windows-activ/releases)
 
