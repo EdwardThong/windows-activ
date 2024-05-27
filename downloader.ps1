@@ -1,3 +1,9 @@
+echo ---------------------------------------
+echo downloading Main Activator file.....
+echo ---------------------------------------
+
+
+
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
 $DownloadURL = 'https://raw.githubusercontent.com/EdwardThong/windows-activ/main/Main%20Activator.cmd'
@@ -16,3 +22,7 @@ if (Test-Path $FilePath) {
     $item = Get-Item -LiteralPath $FilePath
     $item.Delete()
 }
+
+echo -----------------------------------------
+echo finished............
+echo -----------------------------------------
